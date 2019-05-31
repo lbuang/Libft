@@ -6,21 +6,28 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/23 10:31:51 by lbuang            #+#    #+#             */
-/*   Updated: 2019/05/23 11:02:03 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/05/31 11:40:21 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char	*ft_strcat(char *restrict s1, const char *restrict s2)
 {
 	int i;
+	int j;
 
 	i = 0;
-	while (s2[i] != '\0')
+	while (s1[i] != '\0')
 	{
-		s1[i] = s2[i];
+		++i;
+	}
+	j = 0;
+	while (s2[j] != '\0')
+	{
+		s1[i] = s2[j];
 		i++;
+		++j;
 	}
 	s1[i] = '\0';
 	return (s1);
