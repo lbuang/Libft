@@ -6,7 +6,7 @@
 #    By: lbuang <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/30 16:16:14 by lbuang            #+#    #+#              #
-#    Updated: 2019/06/05 16:19:22 by lbuang           ###   ########.fr        #
+#    Updated: 2019/06/05 16:23:01 by lbuang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,8 +17,8 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 
 SOURCES = ./ft_isascii.c ./ft_strcat.c	./ft_strlen.c \
-./ft_atoi.c	./ft_isdigit.c	./ft_strchr.c	./ft_strncat.c	./ft_tolower.c \
-./ft_isalnum.c	./ft_isprint.c	./ft_strcmp.c	./ft_strncmp.c	./ft_toupper.c \
+./ft_atoi.c	./ft_isdigit.c	./ft_strchr.c	./ft_tolower.c \
+./ft_isalnum.c	./ft_isprint.c	./ft_strcmp.c ./ft_strncmp.c	./ft_toupper.c \
 ./ft_isalpha.c	./ft_putchar.c	./ft_strcpy.c	./ft_strncpy.c
 
 OBJECTS = $(SOURCES:.c=.o)
