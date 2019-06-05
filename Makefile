@@ -6,15 +6,13 @@
 #    By: lbuang <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/30 16:16:14 by lbuang            #+#    #+#              #
-#    Updated: 2019/06/05 16:23:01 by lbuang           ###   ########.fr        #
+#    Updated: 2019/06/05 16:25:13 by lbuang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-CC = gcc
-
-CFLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -c
 
 SOURCES = ./ft_isascii.c ./ft_strcat.c	./ft_strlen.c \
 ./ft_atoi.c	./ft_isdigit.c	./ft_strchr.c	./ft_tolower.c \
@@ -26,7 +24,7 @@ OBJECTS = $(SOURCES:.c=.o)
 all: $(NAME)
 
 $(NAME):
-	gcc $(CFLAGS) $(SOURCES)
+	gcc $(FLAGS) $(SOURCES)
 	ar rc $(NAME) $(OBJECTS)
 	ranlib $(NAME)
 
