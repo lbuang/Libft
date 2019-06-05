@@ -6,7 +6,7 @@
 #    By: lbuang <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/30 16:16:14 by lbuang            #+#    #+#              #
-#    Updated: 2019/05/30 16:45:13 by lbuang           ###   ########.fr        #
+#    Updated: 2019/06/05 16:16:37 by lbuang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,10 +26,10 @@ OBJECTS = $(SOURCES:.c=.o)
 all: $(NAME)
 
 $(NAME):
-	$(CC) $(CFLAGS) -c $(SOURCES)
+	gcc $(CFLAGS) $(SOURCES)
 	ar rc $(NAME) $(OBJECTS)
 	ranlib $(NAME)
-	rm -f $(OBJECTS)
+
 
 clean:
 	rm -f $(OBJECTS)
@@ -38,3 +38,5 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
+
+.PHONY: clean fclean all re
