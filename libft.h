@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/06 14:07:12 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/06 15:07:42 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,6 @@ int					ft_memcmp(const void *s1, const void *s2, size_t n);
 void				*ft_memset(void *b, int c, size_t n);
 char				*ft_strdup(const char *s1);
 void				ft_bzero(void *s, size_t n);
+void				*ft_memmove(void *dst, const void *src, size_t len)
 
 #endif
