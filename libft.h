@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/06 17:13:44 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/10 16:20:06 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,9 @@ char				*ft_strdup(const char *s1);
 void				ft_bzero(void *s, size_t n);
 void				*ft_memmove(void *dst, const void *src, size_t len);
 void				*ft_memchr(const void *s, int c, size_t n);
-void				ft_putchr_fd(char c, int fd);
+void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char const *s, int fd);
+void				ft_putendl_fd(char const *s, int fd);
+void				*ft_memalloc(size_t n);
 
 #endif
