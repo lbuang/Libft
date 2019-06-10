@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/10 16:41:28 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/10 16:50:33 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ void				*ft_memchr(const void *s, int c, size_t n);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
-void				*ft_memalloc(size_t n);
+void				*ft_memalloc(size_t size);
 void				ft_memdel(void **ap);
 void				ft_strdel(char **as);
 char				*ft_strnew(size_t size);
