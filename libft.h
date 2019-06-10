@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/10 16:24:54 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/10 16:31:21 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,5 +53,6 @@ void				ft_putstr_fd(char const *s, int fd);
 void				ft_putendl_fd(char const *s, int fd);
 void				*ft_memalloc(size_t n);
 void				ft_memdel(void **ap);
+void				ft_strdel(char **as);
 
 #endif
