@@ -6,7 +6,7 @@
 #    By: lbuang <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/30 16:16:14 by lbuang            #+#    #+#              #
-#    Updated: 2019/06/10 16:40:22 by lbuang           ###   ########.fr        #
+#    Updated: 2019/06/10 17:31:34 by lbuang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ SOURCES = ./ft_isascii.c ./ft_strcat.c	./ft_strlen.c \
 ./ft_memcpy.c	./ft_memset.c	./ft_memcmp.c	./ft_strlcat.c	./ft_strdup.c \
 ./ft_bzero.c	./ft_memmove.c	./ft_memchr.c	./ft_putchar_fd.c	./ft_putstr_fd.c \
 ./ft_putendl_fd.c	./ft_memalloc.c	./ft_memdel.c	./ft_strdel.c	./ft_strnew.c \
-./ft_strclr.c
+./ft_strclr.c	./ft_striteri.c
 
 OBJECTS = $(SOURCES:.c=.o)
 
