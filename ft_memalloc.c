@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/10 15:14:48 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/10 16:49:49 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/10 16:52:57 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_memalloc(size_t size)
 {
 	void	*m;
 	
-	unsigned int	i;
+	m = malloc(size);
 	if (m == NULL)
 		return (NULL);
 	ft_bzero(m, size);
