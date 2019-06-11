@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/11 10:43:57 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/11 10:51:46 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int					ft_isprint(int c);
 void				ft_putchar(char c);
 char				*ft_strcat(char *s1, const char *s2);
 char				*ft_strchr(const char *s, int c);
-int					ft_strcmp(char *s1, char *s2);
+int					ft_strcmp(const char *s1, const char *s2)
 char				*ft_strcpy(char *dst, const	char *src);
 size_t				ft_strlen(const char *s);
 int					ft_strncmp(char *s1, char *s2, size_t n);
