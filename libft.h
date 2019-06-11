@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/10 17:41:04 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/11 10:34:52 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,6 @@ char				*ft_strnew(size_t size);
 void				ft_strclr(char *s);
 void				ft_striteri(char *s, void (*f)(unsigned int, char*));
 void				ft_striter(char *s, void (*f)(char*));
+char				*ft_strmap(char const *s, char (*f)(char));
 
 #endif
