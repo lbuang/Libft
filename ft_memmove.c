@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/06 14:21:14 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/06 15:22:12 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/11 10:57:26 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,6 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		return (NULL);
 	ft_memcpy(tmp, src, len);
 	ft_memcpy(dst, tmp, len);
+	free(tmp);
 	return (dst);
 }
