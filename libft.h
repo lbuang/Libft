@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/13 13:27:35 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/13 13:33:25 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,5 +71,6 @@ void				ft_putendl(char const *s);
 char				*ft_strstr(const char *s1, const char *s2);
 char				*ft_strrchr(const char *s, int c);
 char				*ft_strncat(char *s1, const char *s2, size_t n);
+char				*ft_strnstr(const char *s1, const char *s2, size_t len);
 
 #endif
