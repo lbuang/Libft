@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/11 15:00:00 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/13 14:41:35 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/13 15:09:05 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 int	ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	if (!s1)
-		return ;
+		return ('\0');
 	return (ft_strncmp(s1, s2, n) ? 0 : 1);
 }
