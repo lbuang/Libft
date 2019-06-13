@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/10 15:15:10 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/13 14:52:28 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/13 14:54:08 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	ft_memdel(void **ap)
 	if(!ap)
 		return ;
 	if (ap)
-	free(*ap);
-	*ap = NULL;
+	{
+		free(*ap);
+		*ap = NULL;
+	}
 }
