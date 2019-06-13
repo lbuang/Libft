@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/11 10:52:56 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/13 14:40:16 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/13 15:08:22 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 int	ft_strequ(char const *s1, char const *s2)
 {
 	if (!s1)
-		return ;
+		return ('\0');
 	return (ft_strcmp(s1, s2) ? 0 : 1);
 }
