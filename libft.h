@@ -6,7 +6,7 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 16:46:47 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/14 15:54:30 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/18 09:47:46 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,6 @@ char				*ft_strrchr(const char *s, int c);
 char				*ft_strncat(char *s1, const char *s2, size_t n);
 char				*ft_strnstr(const char *s1, const char *s2, size_t len);
 char				*ft_strtrim(char const *s);
-void				ft_whitespace(char c);
+char				ft_whitespace(char c);
 
 #endif
