@@ -6,13 +6,13 @@
 /*   By: lbuang <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/14 15:52:04 by lbuang            #+#    #+#             */
-/*   Updated: 2019/06/14 16:05:39 by lbuang           ###   ########.fr       */
+/*   Updated: 2019/06/18 09:46:31 by lbuang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_whitespace(char c)
+char	ft_whitespace(char c)
 {
 	return (c == ' ' || c == '\t' || c == '\n');
 }
